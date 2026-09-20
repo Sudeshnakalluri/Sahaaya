@@ -1,0 +1,24 @@
+{
+  "name": "sahaaya-voice-first-navigator",
+  "version": "1.0.0",
+  "description": "SAHAAYA: Voice-First Government Scheme Navigator - Tech for a Better Tomorrow",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "test": "cd backend && npm test"
+  },
+  "keywords": [
+    "sahaaya",
+    "civic-tech",
+    "voice-ai",
+    "government-schemes",
+    "welfare",
+    "accessibility"
+  ],
+  "author": "Sahaaya Team",
+  "license": "MIT"
+}
